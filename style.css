@@ -296,3 +296,20 @@ footer.site-footer a {
   .hero h1 { font-size: 30px; }
   nav.site-nav a { margin-left: 12px; font-size: 13px; }
 }
+
+/* Botones de descarga en las tiendas */
+.store-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.btn-store {
+  background: #111111;
+  color: #ffffff;
+}
+.btn-store:hover {
+  background: #333333;
+  color: #ffffff;
+}
